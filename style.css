@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.area {
+    display: flex;
+}
+
+.sidebar {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 20vw;
+    font-family: 'Unbounded', cursive;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+    margin: 25px 30px;
+    /* justify-content: space-evenly; */
+}
+
+.sidebarul2 {
+    margin-top: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin: 20px 34px;
+}
+
+.sidebarImg {
+    height: 60px;
+    width: 200px;
+}
+
+.iconColor {
+    color: white;
+}
+
+.iconText {
+    margin-left: 15px;
+    color: cyan;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+}
+
+
+.contant {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    margin: 25px 10px;
+    min-height: 55vh;
+    width: 50vw;
+    border-radius: 20px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    display: flex;
+    padding: 34px;
+}
+
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 20vh;
+    width: 55vw;
+    margin: 0 auto;
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px
+}
+
+.range {
+    width: 90%;
+    margin: 20px 0;
+    accent-color: cyan;
+    cursor: pointer;
+}
+
+.musicIcons i {
+    margin: 0 20px;
+}
+
+
+.sidebar2 {
+    background-color: rgb(48, 47, 47);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 30vw;
+    font-family: 'Unbounded', cursive;
+    position: sticky;
+    top: 0;
+    border-radius: 20px;
+    margin: 25px 30px;
+}
+
+.songs {
+    display: block;
+    height: 50vh;
+    width: 25vw;
+    margin: 15px;
+    overflow: auto;
+}
+
+.songs::-webkit-scrollbar {
+    display: none;
+}
+
+.coverImg {
+    height: 23px;
+    width: 23px;
+    border-radius: 34px;
+}
+
+.songItems {
+    background-color: rgba(255, 255, 255, 0.863);
+    color: black;
+    display: flex;
+    margin: 10px 10px;
+    padding: 10px;
+    border-radius: 34px;
+    height: 20px;
+    width: 90%;
+    justify-content: space-between;
+    cursor: pointer;
+}

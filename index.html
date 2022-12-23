@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Video Player</title>
+</head>
+
+<body>
+    <div class="area">
+        <div class="sidebar">
+            <ul>
+                <li><img class="sidebarImg" src="logo.png"></li>
+            </ul>
+            <ul class="sidebarul2">
+                <li><i class="fa-sharp fa-solid fa-house"></i><span class="iconText">Home</span></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i><span class="iconText">Search</span></li>
+                <li><i class="fa-solid fa-rectangle-list"></i><span class="iconText">Your Library</span></li>
+                <li><i class="fa-solid fa-circle-plus"></i><span class="iconText">Playlist</span></li>
+                <li><i class="fa-sharp fa-solid fa-thumbs-up"></i><span class="iconText">Liked Songs</span></li>
+            </ul>
+        </div>
+        <div class="container">
+
+            <div class="contant">
+                <div class="songs">
+                    <div class="songItems" id="0">
+                        <img class="coverImg" src="cover1.jpg" alt="1">
+                        <span class="songName">
+                            Keshariya
+                        </span>
+                        <span>
+                            04:00
+                        </span>
+                    </div>
+                    <div class="songItems" id="1">
+                        <img class="coverImg" src="cover1.jpg" alt="1">
+                        <span class="songName">
+                            Rata Lambiya
+                        </span>
+                        <span>
+                            04:00
+                        </span>
+                    </div>
+
+                </div>
+            </div>
+            <div class="bottom">
+                <input type="range" class="range" id="progressBar" value="0">
+                <div class="musicIcons">
+                    <i class="fa-solid fa-backward-step"></i>
+                    <i class="fa-solid fa-circle-play" id="playButton"></i>
+                    <i class="fa-solid fa-forward-step"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="sidebar2">
+
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/de0cb59454.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
